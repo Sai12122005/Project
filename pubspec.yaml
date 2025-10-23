@@ -1,0 +1,27 @@
+name: ai_tutor
+description: A friendly, animated, multilingual AI Tutor app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.2.3
+  google_generative_ai: ^0.4.5
+  confetti: ^0.7.0
+  intl: ^0.19.0
+
+  # Optional, but helpful for animations
+  animations: ^2.0.11
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/questions.json
